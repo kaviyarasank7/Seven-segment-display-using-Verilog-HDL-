@@ -12,6 +12,7 @@ Computer system with a suitable operating system.
 Launch Vivado 2023.1:
 
 Open Vivado and create a new project.
+<br>
 Design the Verilog Code:
 
 Write the Verilog code for the seven-segment display, defining the logic that maps a 4-bit binary input to the corresponding segments (a to g) of the display.
