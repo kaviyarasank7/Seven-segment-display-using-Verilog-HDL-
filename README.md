@@ -1,7 +1,9 @@
 # Aim
+
 To design and simulate a seven-segment display driver using Verilog HDL, and verify its functionality through a testbench in the Vivado 2023.1 environment. The objective is to implement the logic that converts a 4-bit binary input into the corresponding 7-segment display output for the digits 0 to 9.
 
 # Apparatus Required
+
 Vivado 2023.1
 Computer system with a suitable operating system.
 
@@ -39,13 +41,17 @@ Capture screenshots of the waveform and save the simulation logs. These will be 
 <br>
 <br>
 <br>
+<br>
 
 # Diagram
 ![image](https://github.com/user-attachments/assets/d7ecb419-906e-4e3b-9b82-f86ced4f364a)
 
 <br>
 <br>
-# Verilog Code for Seven-Segment Display
+<br>
+<br>
+<br>
+Verilog Code for Seven-Segment Display
 
 module bcd(bcd,seg);
 input[3:0]bcd;
