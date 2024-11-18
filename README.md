@@ -28,7 +28,7 @@ Analyze the output waveforms in the simulation window, and verify that the corre
 Save and Document Results:
 
 Capture screenshots of the waveform and save the simulation logs. These will be included in the lab report.
-
+<br>
 # Diagram
 ![image](https://github.com/user-attachments/assets/d7ecb419-906e-4e3b-9b82-f86ced4f364a)
 
@@ -57,7 +57,7 @@ endmodule
 
 
 
-Testbench for Seven-Segment Display:
+# Testbench for Seven-Segment Display:
 
 module bcd_tb; // Inputs 
 reg [3:0] bcd;
@@ -71,7 +71,7 @@ bcd uut (
     .seg(seg)
 );
 
-// Test procedure
+# Test procedure
 initial begin
     // Initialize inputs
     bcd = 4'b0000;
