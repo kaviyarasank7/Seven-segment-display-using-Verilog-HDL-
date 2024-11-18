@@ -29,10 +29,14 @@ Save and Document Results:
 
 Capture screenshots of the waveform and save the simulation logs. These will be included in the lab report.
 <br>
+<br>
+<br>
+<br>
 # Diagram
 ![image](https://github.com/user-attachments/assets/d7ecb419-906e-4e3b-9b82-f86ced4f364a)
 
-
+<br>
+<br>
 # Verilog Code for Seven-Segment Display
 
 module bcd(bcd,seg);
