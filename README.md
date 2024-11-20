@@ -38,26 +38,33 @@ Diagram:
 ![image](https://github.com/user-attachments/assets/d7ecb419-906e-4e3b-9b82-f86ced4f364a)
 
 
+
+
+
+
+
+
+
 Verilog Code for Seven-Segment Display:
 
-module bcd(bcd,seg);
-input[3:0]bcd;
-output reg [7:0]seg;
-always@(*)
-case(bcd)
-  0:seg=7'b0000001;
-  1:seg=7'b1001111;
-  2:seg=7'b0010010;
-  3:seg=7'b0000110;
-  4:seg=7'b1001100;
-  5:seg=7'b0100100;
-  6:seg=7'b0100000;
-  7:seg=7'b0001111;
-  8:seg=7'b0000000;
-  9:seg=7'b0000100;
-default:seg=7'b1111111;
-endcase
-endmodule
+module bcd(bcd,seg);<br>
+input[3:0]bcd;<br>
+output reg [7:0]seg;<br>
+always@(*)<br>
+case(bcd)<br>
+  0:seg=7'b0000001;<br>
+  1:seg=7'b1001111;<br>
+  2:seg=7'b0010010;<br>
+  3:seg=7'b0000110;<br>
+  4:seg=7'b1001100;<br>
+  5:seg=7'b0100100;<br>
+  6:seg=7'b0100000;<br>
+  7:seg=7'b0001111;<br>
+  8:seg=7'b0000000;<br>
+  9:seg=7'b0000100;<br>
+default:seg=7'b1111111;<br>
+endcase<br>
+endmodule<br>
 ![Screenshot (9)](https://github.com/user-attachments/assets/43bd3be7-0f79-4128-ba9c-e124c9ac8ec6)
 
 
